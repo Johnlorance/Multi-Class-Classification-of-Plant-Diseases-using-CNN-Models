@@ -24,3 +24,26 @@ adapting the model to the specific classification task with 38 classes.
 The dataset consists of labeled images of plants, each associated with one of the 38 disease categories. 
 The dataset divided into training, validation, and testing subsets to ensure unbiased model evaluation.
 Images sourced from a Git-Hub Repo is forked to my Git-Hub account. 
+
+## Experimental Results
+
+### Model A: Scratch-built CNN
+
+| Number of Epochs | Training Accuracy | Testing Accuracy |
+|-------------------|-------------------|------------------|
+| 5                 | 83%              | 74.36%          |
+| 7                 | 89.7%            | 80.4%           |
+| 10                | 91.5%            | 91.06%          |
+| 12                | 92.77%           | 91.91%          |
+| 15                | 93.80%           | 85.36%          |
+
+**Best Accuracy with 12 epochs:**  
+The final model was trained on 12 epochs.
+
+### Model B: VGG-16 Fine-Tuned CNN
+
+| Number of Epochs | Training Accuracy | Testing Accuracy |
+|-------------------|-------------------|------------------|
+| 5                 | 97.68%           | 97.2%           |
+
+So there is no for more fine-tuning epochs and we stoped in this
