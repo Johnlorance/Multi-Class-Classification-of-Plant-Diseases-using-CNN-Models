@@ -22,7 +22,7 @@ The second CNN model based on the VGG-16 architecture, a renowned pre-trained mo
 with pre-trained weights from the ImageNet dataset. The final layers will be retrained using the plant disease dataset,
 adapting the model to the specific classification task with 38 classes.
 **Model Summary:**
-<div style="text-align: right; display: inline-block;">
+<div style="margin-right: 10px; display: inline-block;">
     Total params: 14,714,688  
     Trainable params: 14,714,688  
     Non-trainable params: 0  
