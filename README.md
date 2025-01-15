@@ -10,10 +10,12 @@ and fully connected layers. It will learn to extract relevant features directly 
 serve as a baseline for performance comparison.
 This architecture is designed to handle the complexities of classifying plant diseases within 
 the provided image dataset.
-            Model Parameters:
+**Model Summary:**
+            <p align= "Right">
             Total params: 26,225,126
             Trainable params: 26,222,630
             Non-trainable params: 2,496
+            </p>
 
 ## Model B: VGG-16 Fine-Tuned CNN
 The second CNN model based on the VGG-16 architecture, a renowned pre-trained model. Convolutional layers will be initialized
