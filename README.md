@@ -23,8 +23,8 @@ with pre-trained weights from the ImageNet dataset. The final layers will be ret
 adapting the model to the specific classification task with 38 classes.
 **Model Summary:**
 <div style="margin-right: 10px; display: inline-block;">
-    Total params: 14,714,688  
-    Trainable params: 14,714,688  
+    Total params: 14,714,688 <br>  
+    Trainable params: 14,714,688 <br>
     Non-trainable params: 0  
 </div>
 
