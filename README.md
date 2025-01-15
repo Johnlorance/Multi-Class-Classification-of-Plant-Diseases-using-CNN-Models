@@ -11,18 +11,18 @@ serve as a baseline for performance comparison.
 This architecture is designed to handle the complexities of classifying plant diseases within 
 the provided image dataset.
 **Model Summary:**
-            <p align= "Right">
-            Total params: 26,225,126
-            Trainable params: 26,222,630
+<div style="display: inline-block;">
+            Total params: 26,225,126 <br>
+            Trainable params: 26,222,630 <br>
             Non-trainable params: 2,496
-            </p>
+</div>
 
 ## Model B: VGG-16 Fine-Tuned CNN
 The second CNN model based on the VGG-16 architecture, a renowned pre-trained model. Convolutional layers will be initialized
 with pre-trained weights from the ImageNet dataset. The final layers will be retrained using the plant disease dataset,
 adapting the model to the specific classification task with 38 classes.
 **Model Summary:**
-<div style="margin-right: 10px; display: inline-block;">
+<div style="display: inline-block;">
     Total params: 14,714,688 <br>  
     Trainable params: 14,714,688 <br>
     Non-trainable params: 0  
